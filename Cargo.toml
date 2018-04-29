@@ -2,10 +2,11 @@
 authors = ["Tom Houlé <tom@tomhoule.com>"]
 name = "graphqlient"
 version = "0.1.0"
-
 [dependencies]
 failure = "*"
+futures = "*"
 graphql-parser = "*"
+serde = "*"
 structopt = "*"
 
 [dependencies.quote]
